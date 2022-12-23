@@ -1,0 +1,101 @@
+<!-- text-align 속성은 일반적으로 사용되는 다음 값 중 하나로 설정할 수 있습니다.
+
+left — 이 경우 브라우저인 부모 요소의 왼쪽에 텍스트를 정렬합니다.
+center — 상위 요소 내부의 텍스트를 중앙에 배치합니다.
+right — 부모 요소의 오른쪽에 텍스트를 정렬합니다.
+justify — 상위 요소의 오른쪽과 왼쪽에 정렬하기 위해 텍스트를 공백으로 만듭니다. -->
+
+body {
+    /* Old browsers */
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #FFF !important; <!-- 재정의가 어렵고 거의 쓰이지 않는 -->
+    font-size: 2em;
+    padding-top: 100px;
+    width: 100%;
+    font-family: Georgia;
+    text-align: center;
+  }
+  
+  h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+    font-family: Georgia;
+  }
+  
+  p {
+    color: aliceblue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .byline {
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+    text-transform: uppercase;
+  }
+  
+  .caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
+    background-color: white;
+    color: black;
+  }
+  
+  .content {
+    padding: 40px;
+  }
+  
+  .image {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/soccer.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  .writer-img {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    width: 50px;
+  }
+  
+<!-- 
+font-family 속성은 요소의 서체를 정의합니다.
+font-size는 표시되는 텍스트의 크기를 제어합니다.
+font-weight는 얇거나 두꺼운 텍스트가 표시되는 방식을 정의합니다.
+text-align 속성은 부모 컨테이너의 왼쪽, 오른쪽 또는 중앙에 텍스트를 배치합니다.
+텍스트는 color 및 background-color라는 두 가지 색상 속성을 가질 수 있습니다. color는 텍스트의 색상을 정의하고 background-color는 텍스트 뒤의 색상을 정의합니다.
+CSS는 opacity 속성으로 요소를 투명하게 만들 수 있습니다.
+CSS는 또한 background-image 속성을 사용하여 요소의 배경을 이미지로 설정할 수 있습니다.
+!important 플래그는 모든 스타일을 재정의하지만 재정의하기가 매우 어렵기 때문에 거의 사용해서는 안 됩니다. -->

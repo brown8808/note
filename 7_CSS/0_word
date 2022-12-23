@@ -1,0 +1,38 @@
+Selector—The beginning of the ruleset used to target the element that will be styled.
+Declaration Block—The code in-between (and including) the curly braces ({ }) that contains the CSS declaration(s).
+Declaration—The group name for a property and value pair that applies a style to the selected element.
+Property—The first part of the declaration that signifies what visual characteristic of the element is to be modified.
+Value—The second part of the declaration that signifies the value of the property.
+
+
+Opening Tag—The start of an HTML element. This is the element that will be styled.
+Attribute—The style attribute is used to add CSS inline styles to an HTML element.
+Declaration—The group name for a property and value pair that applies a style to the selected element.
+Property—The first part of the declaration that signifies what visual characteristic of the element is to be modified.
+Value—The second part of the declaration that signifies the value of the property.
+
+
+
+Selector - 스타일을 지정할 요소를 대상으로 지정하는 데 사용되는 규칙 세트의 시작 부분입니다.
+Declaration Block - CSS 선언을 포함하는 중괄호({ }) 사이에 있는(및 포함하는) 코드입니다.
+Declaration—The - 선택한 요소에 스타일을 적용하는 속성 및 값 쌍의 그룹 이름입니다.
+Property - 수정할 요소의 시각적 특성을 나타내는 선언의 첫 번째 부분입니다.
+Value - 속성 값을 나타내는 선언의 두 번째 부분입니다.
+
+Opening Tag - HTML 요소의 시작입니다. 스타일을 지정할 요소입니다.
+Attribute - 스타일 속성은 CSS 인라인 스타일을 HTML 요소에 추가하는 데 사용됩니다.
+Declaration - 선택한 요소에 스타일을 적용하는 속성 및 값 쌍의 그룹 이름입니다.
+Property - 수정할 요소의 시각적 특성을 나타내는 선언의 첫 번째 부분입니다.
+Value - 속성 값을 나타내는 선언의 두 번째 부분입니다.
+
+인라인 스타일과 스타일시트 모두에 대해 작성된 CSS 구문의 기본 구조입니다.
+ruleset , selector 및 declaration 과 같이 일반적으로 사용되는 일부 CSS 용어입니다 .
+속성을 사용하여 여는 HTML 태그 안에 CSS 인라인 스타일을 작성할 수 있습니다 style.
+인라인 스타일은 HTML의 스타일을 지정하는 데 사용할 수 있지만 최선의 방법은 아닙니다.
+내부 스타일시트는 HTML 파일의 요소 <style>내부에 있는 요소를 사용하여 작성됩니다 .<head>
+내부 스타일시트를 사용하여 HTML 스타일을 지정할 수 있지만 모범 사례는 아닙니다.
+외부 스타일시트는 .css파일 확장자를 사용하여 HTML에서 CSS 코드를 분리합니다.
+외부 스타일시트는 HTML 및 CSS를 사용할 때 가장 좋은 접근 방식입니다.
+외부 스타일시트는 요소를 사용하여 HTML에 연결됩니다 <link>.
+
+href Hypertext Reference / 하이퍼텍스트 참조 / 하이퍼링크

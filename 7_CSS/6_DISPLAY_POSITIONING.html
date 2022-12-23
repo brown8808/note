@@ -1,0 +1,138 @@
+속성을 설정하여 요소의 기본 위치를 변경할 수 있습니다 position. 속성 position은 다음 다섯 가지 값 중 하나를 사용할 수 있음
+
+static- 기본값(지정할 필요 없음)
+relative
+absolute
+fixed
+sticky
+
+top- 요소를 위에서 아래로 이동합니다.
+bottom- 요소를 아래에서 위로 이동합니다.
+left- 요소를 왼쪽에서 멀리(오른쪽으로) 이동합니다.
+right- 요소를 오른쪽에서 멀리(왼쪽으로) 이동합니다.
+
+픽셀, 전각 또는 백분율로 값을 지정하여 요소를 이동하는 데 필요한 정확한 거리를 입력할 수 있습니다. 
+position요소의 속성이 기본값인 경우 오프셋 속성이 작동하지 않는다는 점에 유의하는 것도 중요합니다.
+z-index 속성은 요소가 겹칠 때 요소가 웹 페이지에서 얼마나 뒤로 또는 얼마나 앞으로 표시되어야 하는지를 제어 이는 얕은 요소 뒤에 더 깊은 요소가 나타나는 요소의 깊이와 같음
+
+
+position 속성을 사용하면 요소의 위치를 지정할 수 있습니다.
+relative 설정하면 요소의 위치는 페이지의 기본 위치를 기준으로 합니다.
+absolute 설정하면 요소의 위치는 가장 가까운 위치의 부모 요소를 기준으로 합니다. 웹 페이지의 모든 부분에 고정할 수 있지만 페이지를 스크롤할 때 요소는 여전히 문서의 나머지 부분과 함께 이동합니다.
+fixed 설정하면 요소의 위치를 웹 페이지의 모든 부분에 고정할 수 있습니다. 요소는 어떤 경우에도 계속 표시됩니다.
+sticky 설정하면 사용자가 부모 컨테이너를 스크롤할 때 요소가 정의된 오프셋 위치에 고정될 수 있습니다.
+z-index 색인은 요소가 다른 요소와 겹칠 때 페이지에서 요소가 얼마나 뒤로 또는 얼마나 앞으로 표시되는지 지정합니다.
+display 속성을 사용하면 문서에서 요소가 세로 및 가로 방향으로 흐르는 방식을 제어할 수 있습니다.
+inline 요소는 가능한 한 적은 공간을 차지하며 너비나 높이를 수동으로 조정할 수 없습니다.
+block 요소는 컨테이너의 너비를 차지하며 높이를 수동으로 조정할 수 있습니다.
+inline-block 요소는 너비와 높이를 설정할 수 있지만 서로 옆에 나타날 수도 있고 전체 컨테이너 너비를 차지하지 않습니다.
+float 속성은 요소를 웹 페이지에서 최대한 왼쪽 또는 오른쪽으로 이동할 수 있습니다.
+clear 속성을 사용하여 요소의 왼쪽이나 오른쪽(또는 둘 다)을 지울 수 있습니다.
+
+body {
+    background-color: #FFF;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #466995;
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  li {
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 80px;  
+  }
+  
+  li:hover {
+    color: #DBE9EE;
+  }
+  
+  h1 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0 auto 20px auto;
+  }
+  
+  h3 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px;
+  }
+  
+  h4 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase
+  }
+  
+  p {
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+  }
+  
+  footer {
+    background-color: #DBE9EE;
+    text-align: center;
+    height: 100px;
+  }
+  
+  .welcome {
+    background-color: #DBE9EE;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+  
+  .question {
+    text-align: center;
+    position: relative;
+    top: 40px;
+  }
+  
+  .answer {
+    border: 1px solid #466995;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .answer:hover {
+    background: #C0D6DF;
+    color: #FFF;
+  }
